@@ -1,4 +1,4 @@
-﻿using xadrez_console.tabuleiro.Enums;
+﻿using tabuleiro.Enums;
 
 namespace tabuleiro
 {
