@@ -145,6 +145,9 @@ namespace xadrez
 
             Peca p = tab.peca(destino);
 
+
+
+
             // #jogadaespecial promocao
             if (p is Peao)
             {
