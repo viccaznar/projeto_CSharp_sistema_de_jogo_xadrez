@@ -1,38 +1,51 @@
-# Curso de Programação Orientada a Objetos em C#  
-*Ministrado por @NelioAlves na Udemy*  
+# ChessMate C# – Guia de Desenvolvimento  
 
-## Descrição  
-Este curso é a sua porta de entrada (e consolidação) no universo da Programação Orientada a Objetos usando C#. Você vai do básico ao avançado com exemplos claros, práticas guiadas e projetos reais.
+## Configuração do projeto  
+- 🛠️ Criando o projeto e o repositório de versionamento (08:29)  
+- 📦 Criando a primeira classe do projeto (08:40)  
 
-## O QUE VOCÊ VAI APRENDER NESTE CURSO?  
-- 🖥️ Fundamentos de C# e .NET  
-- 🏷️ Criação de classes, objetos, encapsulamento e herança  
-- 🧩 Interfaces e 🔄 polimorfismo  
-- ⚖️ Princípios SOLID aplicados a código limpo  
-- 🏗️ Padrões de projeto mais usados (Factory, Singleton, Repository etc.)  
-- 🧬 Generics, expressões lambda e delegates  
-- 🔍 Consultas e manipulação de coleções com LINQ  
+## Implementação do Tabuleiro  
+- ♟️ Começando a implementar o tabuleiro (09:33)  
+- 🖨️ Método para imprimir o tabuleiro (06:55)  
+- 🏰 Colocando peças no tabuleiro (11:59)  
+- ⚠️ Criando exceção personalizada de tabuleiro (05:53)  
+- 🔍 Testando a exceção personalizada (04:13)  
+- 📐 Criando a classe PosicaoXadrez (07:19)  
+- 🎨 Melhorando a impressão do tabuleiro (06:23)  
 
-## METODOLOGIA  
-1. **Teoria objetiva**: cada conceito explicado de forma prática e direta.  
-2. **Exemplos resolvidos**: você acompanha passo a passo a implementação de cada tópico.  
-3. **Exercícios propostos**: desafios ao final de cada seção para fixar o aprendizado.  
-4. **Projetos hands-on**: desenvolva aplicações completas que unem todos os conceitos em cenários reais.  
+## Preparação e Testes Iniciais  
+- 🧪 Preparando o programa para testes (11:56)  
+- 🚶‍♂️ Realizando os primeiros testes de movimentação (06:09)  
+- 🎯 Projetando método de movimentos possíveis (04:29)  
 
-## PÚBLICO-ALVO  
-Este curso é ideal para quem busca:  
-- Uma base sólida em OOP e C#  
-- Reforço dos conteúdos vistos na faculdade  
-- Preparação para entrevistas e certificações Microsoft  
+## Movimentos das Peças  
+- 👑 Implementando movimentos do rei (08:53)  
+- 🏰 Implementando movimentos da torre (04:33)  
+- 🧩 Testes iniciais dos movimentos das peças (11:09)  
+- ↩️ Passando o turno (05:31)  
+- 📍 Validando posição de origem (09:03)  
+- 🎯 Validando posição de destino (04:21)  
 
-## SEJAM BEM-VINDOS!  
-Assista à aula introdutória e aos vídeos gratuitos para sentir nossa didática. Estou empolgado em guiá-lo nesta jornada rumo ao domínio da Programação Orientada a Objetos com C#.  
-Um grande abraço e nos vemos nas aulas!  
+## Captura de Peças  
+- 📋 Implementando controle de peças capturadas (08:13)  
+- 🔎 Testando o controle de capturas (07:02)  
 
----
+## Xeque e Xeque-Mate  
+- ⚔️ Implementando lógica de xeque (12:42)  
+- 🕵️ Testando xeque (03:15)  
+- 🏆 Implementando lógica de xeque-mate (05:38)  
+- 🎉 Testando xeque-mate (05:09)  
 
-### Para quem é este curso:  
-- Estudantes de Computação ou Informática  
-- Profissionais iniciantes e estagiários que queiram aprender ou revisar OOP  
-- Entusiastas de desenvolvimento de games (Unity)  
-- Entusiastas de sistemas e aplicações na plataforma Microsoft C# /.NET  
+## Ajustes e Novas Peças  
+- ✏️ Renomeando método para “movimentos possíveis” (02:40)  
+- ♞♝ Implementando as demais peças (05:46)  
+
+## Jogadas Especiais  
+- 🤝 Roque pequeno (07:12) e roque grande (02:48)  
+- 🔄 Complementando roques (06:08)  
+- 🧪 Testando roques (05:54)  
+- 🏃‍♂️ En passant – início (04:53)  
+- ⏱️ Movimentos en passant (07:02)  
+- ↔️ Complementando en passant (08:18)  
+- 🔎 Testando en passant (05:51)  
+- 🎊 Promoção de peão (06:20)  
