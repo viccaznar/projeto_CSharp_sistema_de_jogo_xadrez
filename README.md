@@ -1,5 +1,5 @@
 # Curso de Programação Orientada a Objetos em C#  
-*Ministrado por Nélio Alves na Udemy*  
+*Ministrado por @NelioAlves na Udemy*  
 
 ## Descrição  
 Este curso é a sua porta de entrada (e consolidação) no universo da Programação Orientada a Objetos usando C#. Você vai do básico ao avançado com exemplos claros, práticas guiadas e projetos reais.
